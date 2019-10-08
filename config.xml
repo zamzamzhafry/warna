@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<widget id="com.sitiaminah.myapp" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-	<name>Game Warna</name>
-	<description>Game ini merupakan game mewarnai berbagai macam pakaian. Kalian dapat mewarnai gambar yang telah disediakan dan meniru warna pakaian yang sudah dicontohkan atau dapat dikreasikan sesuai keinginan masing-masing. Have Fun selamat bermain :).</description>
-	<author email="sitiaminah1234589@gmail.com">Siti Aminah</author>
+<widget id="com.prasetio.sayur" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>Mewarnai Sayuran</name>
+	<description>Uji Coba </description>
+	<author>Prasetio</author>
 
 	<icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
 	<icon src="www/icon-128.png" width="128" height="128" density="xhdpi" />
