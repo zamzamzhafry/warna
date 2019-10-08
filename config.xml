@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<widget id="com.sitiaminah.myapp" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>Game Warna</name>
+	<description>Game ini merupakan game mewarnai berbagai macam pakaian. Kalian dapat mewarnai gambar yang telah disediakan dan meniru warna pakaian yang sudah dicontohkan atau dapat dikreasikan sesuai keinginan masing-masing. Have Fun selamat bermain :).</description>
+	<author email="sitiaminah1234589@gmail.com">Siti Aminah</author>
+
+	<icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
+	<icon src="www/icon-128.png" width="128" height="128" density="xhdpi" />
+
+	<preference name="android-targetSdkVersion" value="28" />
+
+	<preference name="orientation" value="landscape" />
+	<preference name="fullscreen" value="true" />
+	<preference name="DisallowOverscroll" value="true" />
+	<preference name="AllowInlineMediaPlayback" value="true" />
+
+	<config-file parent="UIStatusBarHidden" platform="ios" target="*-Info.plist"><true/></config-file>
+	<config-file parent="UIViewControllerBasedStatusBarAppearance" platform="ios" target="*-Info.plist"><false/></config-file>
+
+
+	<preference name="deployment-target" value="10.0" />
+	<preference name="android-minSdkVersion" value="21" />
+	<access origin="*" />
+
+	<plugin name="cordova-custom-config" />
+	<plugin name="cordova-plugin-file" />
+	<plugin name="cordova-plugin-inappbrowser" />
+	<plugin name="cordova-plugin-statusbar" />
+	<plugin name="cordova-plugin-whitelist" />
+	<plugin name="cordova-plugin-wkwebview-engine" />
+
+
+	<engine name="ios" />
+	<engine name="android" />
+</widget>
